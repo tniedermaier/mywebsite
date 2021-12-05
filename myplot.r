@@ -11,7 +11,8 @@ myplot <- function(x, y, ...){
     plot(x, y, ...)
   }
 
-dat <- mtcars
-dat$wt[4] <- NA
-dat$mpg[8] <- NA
-myplot(dat$wt, dat$mpg)
+## Example:
+#dat <- mtcars
+#dat$wt[4] <- NA
+#dat$mpg[8] <- NA
+#myplot(dat$wt, dat$mpg)
